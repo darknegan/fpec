@@ -1,0 +1,13 @@
+<p-megaMenu [model]="navbar">
+  <ng-template pTemplate="start">
+    <img src="assets/featured/home/fpec_logo.png" height="40" class="p-mr-2" />
+  </ng-template>
+  <ng-template pTemplate="end">
+    <p-autoComplete
+      class="searchbar"
+      (completeMethod)="search($event)"
+      [dropdown]="true"
+      placeholder="Search"
+    ></p-autoComplete>
+  </ng-template>
+</p-megaMenu>

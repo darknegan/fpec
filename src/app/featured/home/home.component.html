@@ -1,0 +1,56 @@
+<!-- Slideshow -->
+<p-carousel
+  [value]="slides$ | async"
+  [numVisible]="1"
+  [numScroll]="1"
+  [circular]="true"
+  [autoplayInterval]="10000"
+>
+  <ng-template pTemplate="header"> </ng-template>
+  <ng-template let-slides pTemplate="slide-item">
+    <div class="slide-item">
+      <div class="slide-item-content">
+        <p-panel class="slide-description" header="{{ slides.header }}">
+          <div class="borTop"></div>
+          <div class="pad-top15">
+            {{ slides.description }}
+          </div>
+          <p-button
+            class="slide-button"
+            type="button"
+            label="Learn More"
+            class="p-button-raised p-button-rounded"
+          ></p-button>
+        </p-panel>
+        <img
+          src="assets/featured/home/slideshow/{{ slides.image }}"
+          [alt]="slides.name"
+          class="slide-image"
+        />
+      </div>
+    </div>
+  </ng-template>
+</p-carousel>
+
+<!-- Food Processing Equipment -->
+  <p-dataView class="equipment-container" [value]="equipment$ | async" layout="grid">
+    <p-header class="equipment-header">Food Processing Equipment </p-header>
+    <ng-template let-equipment pTemplate="gridItem">
+      <div class="equipment-grid">
+        <div class="equipment-item card">
+          <div class="equipment-item-content"></div>
+          <img
+            src="assets/featured/home/equipment/{{ equipment.image }}"
+            [alt]="equipment.name"
+            class="equipment-image"
+          />
+          <div class="equipment-item-bottom">
+            <div class="equipment-name">
+              {{ equipment.name }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </p-dataView>
+

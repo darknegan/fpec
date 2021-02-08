@@ -1,0 +1,154 @@
+:host {
+  ::ng-deep .p-panel .p-panel-header {
+    background-color: #004978 !important;
+    color: white;
+    padding: 50px;
+    padding-bottom: 10px;
+  }
+
+  ::ng-deep .p-panel .p-panel-content {
+    background-color: #004978 !important;
+    color: white;
+    padding: 50px;
+    padding-top: 0;
+    font-size: 14px !important;
+  }
+
+  ::ng-deep .p-button {
+    background-color: #2056ac !important;
+    margin-top: 15px !important;
+  }
+
+  ::ng-deep .p-panel-title {
+    font-size: 35px !important;
+    font-family: "Oswald", sans-serif !important;
+  }
+
+  ::ng-deep .p-carousel-container {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+
+  ::ng-deep .p-dataview-content {
+    margin-left: 125px;
+    width: 82.5%;
+  }
+}
+
+.slide-item {
+  background-color: lightgray;
+}
+
+.slide-description {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.slide-item-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.slide-image {
+  height: 400px !important;
+}
+
+.equipment-grid-item-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.equipment-grid {
+  width: 20%;
+}
+
+.equipment-header {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  color:#004978
+}
+
+.equipment-name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #004978;
+  height: 60px;
+}
+
+.equipment-item {
+  margin: 0.5em;
+  border: 1px solid #dee2e6;
+
+  .equipment-item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 2rem 0;
+  }
+
+  .equipment-item-content {
+    text-align: center;
+  }
+}
+
+.card {
+  padding: 1rem;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.card:hover{ 
+  background-color: #004978;
+  cursor: pointer;
+  transform: translateY(-5px);
+
+  .equipment-name {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 576px) {
+	:host ::ng-deep .product-list-item {
+		flex-direction: column;
+		align-items: center;
+
+		img {
+			width: 75%;
+			margin: 2rem 0;
+		}
+
+		.product-list-detail {
+			text-align: center;
+		}
+
+		.product-price {
+			align-self: center;
+		}
+
+		.product-list-action {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.product-list-action {
+			margin-top: 2rem;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+	}
+}
