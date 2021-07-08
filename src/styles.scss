@@ -1,32 +1,42 @@
-.p-megamenu {
+.p-menubar {
   background-color: #343434 !important;
+
+  .p-menuitem {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    font-size: 1.1rem !important;
+  }
 
   .p-menuitem-text {
     color: white !important;
   }
 }
 
-.p-megamenu-submenu {
-  .p-menuitem-text {
-    color: black !important;
+.p-submenu-list {
+  padding: 0 !important;
+
+  .p-menuitem {
+    background-color: grey !important;
+    margin: 0 !important;
+    padding: 5px !important;
   }
 
-  .p-megamenu-submenu-header {
-    background-color: darkslategray !important;
-    color: white !important;
-  }
 }
 
 .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button{
   background-color: #004978 !important;
 }
 
-.p-megamenu-col-2 {
+.p-menubar-col-2 {
   background-color: #DCDCDC !important;
 }
 
 .p-menuitem-link {
   padding: 5px !important;
+}
+
+.p-menubar-end {
+  margin-left: 200px !important;
 }
 
 .p-button {

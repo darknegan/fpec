@@ -2,241 +2,120 @@
   "data": [
     {
       "label": "Home",
-      "routerLink": ["/home"]
+      "routerLink": [
+        "/home"
+      ]
     },
     {
       "label": "About",
-      "routerLink": ["/about"]
+      "routerLink": [
+        "/about"
+      ]
     },
     {
       "label": "Products",
       "items": [
-        [
-          {
-            "label": "Tumblers",
-            "items": [
-              { "label": "Vacuum Tumbler", "routerLink": ["/contact"] },
-              {
-                "label": "Arctic Blast CO2 Vaccum Tumbler",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Two Door Tumbler", "routerLink": ["/contact"] },
-              {
-                "label": "Glycol Jacketed Vaccum Tumbler",
-                "routerLink": ["/contact"]
-              }
-            ]
-          },
-          {
-            "label": "Mixing & Grinding",
-            "items": [
-              { "label": "Vaccum CO2 Mixer", "routerLink": ["/contact"] },
-              { "label": "Intermeshing Mixer", "routerLink": ["/contact"] },
-              { "label": "Inline Grinding System", "routerLink": ["/contact"] },
-              { "label": "Mixer", "routerLink": ["/contact"] },
-              { "label": "Mixer Grinder", "routerLink": ["/contact"] },
-              { "label": "Lab Mixer", "routerLink": ["/contact"] },
-              { "label": "Massage Blender", "routerLink": ["/contact"] },
-              {
-                "label": "Grinder with Self Feeding Hopper",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Single Shaft Mixer", "routerLink": ["/contact"] }
-            ]
-          }
-        ],
-
-        [
-          {
-            "label": "Product and Material Handling(Screw & Belt Conveyors)",
-            "items": [
-              {
-                "label": "Metering Screw Conveyor",
-                "routerLink": ["/contact"]
-              },
-              {
-                "label": "Batching Screw Conveyor",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Reject Conveyor", "routerLink": ["/contact"] },
-              { "label": "Twin Screw Conveyor", "routerLink": ["/contact"] },
-              {
-                "label": "Accumulation Metering Conveyor",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Trim Station", "routerLink": ["/contact"] },
-              {
-                "label": "Pivoting Screw Conveyor",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Belt Conveyor", "routerLink": ["/contact"] },
-              { "label": "Spray Tunnel", "routerLink": ["/contact"] },
-              {
-                "label": "Horizontal Screw Conveyor",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Gate Conveyor", "routerLink": ["/contact"] }
-            ]
-          }
-        ],
-        [
-          {
-            "label": "Product Transfer & Pumping",
-            "items": [
-              { "label": "Twin Screw Pump System", "routerLink": ["/contact"] },
-              {
-                "label": "Vaccum Metering Stystem II",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Centrifugal Pump Cart", "routerLink": ["/contact"] },
-              {
-                "label": "Vaccum Metering System (VMS)",
-                "routerLink": ["/contact"]
-              },
-              {
-                "label": "Single Screw Pump System",
-                "routerLink": ["/contact"]
-              },
-              {
-                "label": "Positive Displacement Pump Cart",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Vaccum Transfer System", "routerLink": ["/contact"] },
-              {
-                "label": "Single Screw Vane Pump System",
-                "routerLink": ["/contact"]
-              },
-              {
-                "label": "VTS with Screw Conveyor",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Pump Hopper", "routerLink": ["/contact"] }
-            ]
-          },
-          {
-            "label": "Cooking",
-            "items": [
-              { "label": "Single Shaft Cooker", "routerLink": ["/contact"] },
-              { "label": "Double Shaft Cooker", "routerLink": ["/contact"] }
-            ]
-          }
-        ],
-
-        [
-          {
-            "label": "Dumpers & Lifts",
-            "items": [
-              { "label": "Pivot Dumper", "routerLink": ["/contact"] },
-              { "label": "Portable Cart Lift", "routerLink": ["/contact"] },
-              { "label": "Barrel Lift", "routerLink": ["/contact"] },
-              { "label": "Hylift Dumper", "routerLink": ["/contact"] },
-              { "label": "Stationary Cart Lift", "routerLink": ["/contact"] },
-              { "label": "Cart Tilter", "routerLink": ["/contact"] },
-              { "label": "Open Channel Dumper", "routerLink": ["/contact"] },
-              { "label": "Pallet Lift", "routerLink": ["/contact"] },
-              { "label": "Tote Dumper", "routerLink": ["/contact"] },
-              { "label": "Chain Lift Dumper", "routerLink": ["/contact"] },
-              { "label": "Chain Lift Pallet Lift", "routerLink": ["/contact"] }
-            ]
-          },
-          {
-            "label": "Grinding & Separation",
-            "items": [
-              { "label": "Inline Grinding System", "routerLink": ["/contact"] },
-              {
-                "label": "Grinder with Self Feeding Hopper",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Mixer Grinder", "routerLink": ["/contact"] },
-              { "label": "Lima Separator", "routerLink": ["/contact"] }
-            ]
-          }
-        ],
-        [
-          {
-            "label": "Vaccum Feed Hoppers & Misc.",
-            "items": [
-              {
-                "label": "Load N Go Product Transfer System",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Conical Hopper", "routerLink": ["/contact"] },
-              {
-                "label": "Platforms & Work Stands",
-                "routerLink": ["/contact"]
-              },
-              { "label": "Vacuum Feed Hopper", "routerLink": ["/contact"] },
-              { "label": "Dry Ingrediant Hopper", "routerLink": ["/contact"] },
-              { "label": "Cart Loading Hopper", "routerLink": ["/contact"] },
-              { "label": "Live Bottom Hopper", "routerLink": ["/contact"] },
-              { "label": "Pump Hopper", "routerLink": ["/contact"] },
-              { "label": "Hydraulic Power Unit", "routerLink": ["/contact"] },
-              { "label": "Patty Stacker", "routerLink": ["/contact"] },
-              { "label": "Vacuum Pump System", "routerLink": ["/contact"] },
-              { "label": "Sheet Meat Horn", "routerLink": ["/contact"] },
-              { "label": "Specialty Hopper", "routerLink": ["/contact"] }
-            ]
-          }
-        ],
-
-        [
-          {
-            "label": "Brine Systems",
-            "items": [
-              { "label": "Multiple Tank System", "routerLink": ["/contact"] },
-              { "label": "Centrifugal Pump Cart", "routerLink": ["/contact"] },
-              { "label": "Single Tank System", "routerLink": ["/contact"] }
-            ]
-          },
-          {
-            "label": "Meat Press",
-            "items": [
-              { "label": "Space Saver Meat Press", "routerLink": ["/contact"] },
-              { "label": "Mega Meat Press", "routerLink": ["/contact"] }
-            ]
-          },
-
-          {
-            "label": "In Stock Equipment",
-            "items": [
-              {
-                "label": "Stationary Cart Lift (In Stock)",
-                "routerLink": ["/contact"]
-              },
-              {
-                "label": "Portable Cart Lift (In Stock)",
-                "routerLink": ["/contact"]
-              }
-            ]
-          }
-        ]
+        {
+          "label": "Tumblers",
+          "routerLink": [
+            "/tumblers"
+          ]
+        },
+        {
+          "label": "Mixing & Grinding",
+          "routerLink": [
+            "/mixing-grinding"
+          ]
+        },
+        {
+          "label": "Product and Material Handling(Screw & Belt Conveyors)",
+          "routerLink": [
+            "/p-m-handling"
+          ]
+        },
+        {
+          "label": "Product Transfer & Pumping",
+          "routerLink": [
+            "/transfer-pumping"
+          ]
+        },
+        {
+          "label": "Cooking",
+          "routerLink": [
+            "/cooking"
+          ]
+        },
+        {
+          "label": "Dumpers & Lifts",
+          "routerLink": [
+            "/dumpers-lifts"
+          ]
+        },
+        {
+          "label": "Grinding & Separation",
+          "routerLink": [
+            "/grinding-separation"
+          ]
+        },
+        {
+          "label": "Vaccum Feed Hoppers & Misc.",
+          "routerLink": [
+            "/vacuum-feed-hoppers"
+          ]
+        },
+        {
+          "label": "Brine Systems",
+          "routerLink": [
+            "/brine-systems"
+          ]
+        },
+        {
+          "label": "Meat Press",
+          "routerLink": [
+            "/meat-press"
+          ]
+        },
+        {
+          "label": "In Stock Equipment",
+          "routerLink": [
+            "/in-stock"
+          ]
+        }
       ]
     },
     {
       "label": "Automation",
-      "routerLink": ["/automation"]
+      "routerLink": [
+        "/automation"
+      ]
     },
     {
       "label": "Replacement Parts",
-      "routerLink": ["/replacement-parts"]
+      "routerLink": [
+        "/replacement-parts"
+      ]
     },
     {
       "label": "Video Gallery",
-      "routerLink": ["/video-gallery"]
+      "routerLink": [
+        "/video-gallery"
+      ]
     },
     {
       "label": "Contact",
       "items": [
-        [
-          {
-            "items": [{ "label": "Contact", "routerLink": ["/contact"] }]
-          },
-          {
-            "items": [
-              { "label": "Sales and Support", "routerLink": ["/contact"] }
-            ]
-          }
-        ]
+        {
+          "label": "Contact",
+          "routerLink": [
+            "/contact"
+          ]
+        },
+        {
+          "label": "Sales and Support",
+          "routerLink": [
+            "/sales-support"
+          ]
+        }
       ]
     }
   ]

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderService } from './services/header.service';
 
-import { MegaMenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +9,7 @@ import { MegaMenuItem } from 'primeng/api';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  navbar: MegaMenuItem[];
+  navbar: MenuItem[];
 
   constructor(private headerService: HeaderService) {}
 

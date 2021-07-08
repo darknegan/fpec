@@ -4,15 +4,19 @@
     padding-bottom: 10.5px;
   }
 
-  ::ng-deep .p-megamenu-start {
-    height: 40px;
-    width: 95px;
-    margin-right: 20px;
+  ::ng-deep .p-menubar-start {
+    height: 60px;
+    width: 149px;
+    margin-right: 40px;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 12px;
   }
 
   ::ng-deep .p-submenu-icon .pi .pi-angle-down{
     color: white !important;
   }
+}
+
+.logo {
+  height: 60px;
 }

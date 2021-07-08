@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './header.component';
 import { HeaderService } from './services/header.service';
 
-import { MegaMenuModule } from 'primeng/megamenu';
+import { MenubarModule } from 'primeng/menubar';
 import { ButtonModule } from 'primeng/button';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { FormsModule } from '@angular/forms';
@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   imports: [
     CommonModule,
-    MegaMenuModule,
+    MenubarModule,
     ButtonModule,
     AutoCompleteModule,
     FormsModule,

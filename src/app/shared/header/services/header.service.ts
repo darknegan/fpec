@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { MegaMenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng/api';
 
 @Injectable()
 export class HeaderService {
@@ -12,7 +12,7 @@ export class HeaderService {
     return this.http
       .get<any>('assets/navbar/navbar.json')
       .toPromise()
-      .then((res) => <MegaMenuItem[]>res.data)
+      .then((res) => <MenuItem[]>res.data)
       .then((data) => {
         return data;
       });
