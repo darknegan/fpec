@@ -39,10 +39,6 @@ describe('HomeComponent', () => {
 
     component.ngOnInit();
 
-    component.slides$.subscribe((slides) => {
-      expect(slides[0].name).toEqual('Tumbler');
-
-      done()
-    })
+    expect(component.slides[0]).toEqual(testSlide);
   })
 });

@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { map } from 'rxjs/operators';
-import { Observable } from 'rxjs';
 
 import { HomeService } from './services/home.service';
 import { Slide } from './model/home-interface';
@@ -12,22 +10,18 @@ import { Equipment } from './model/home-interface';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  slides$: Observable<Slide[]>;
-  equipment$: Observable<Equipment[]>;
+  slides: Slide[];
+  equipment: Equipment[];
 
   constructor(private homeService: HomeService) {}
 
   ngOnInit(): void {
-    this.slides$ = this.homeService.getSlideShow().pipe(
-      map((res: Slide[]) => {
-        return res;
-      })
-    );
+    this.homeService.getSlideShow().subscribe((slideData) => {
+      this.slides = slideData;
+    });
 
-    this.equipment$ = this.homeService.getEquipment().pipe(
-      map((res: Equipment[]) => {
-        return res;
-      })
-    );
+    this.homeService.getEquipment().subscribe((equipmentData) => {
+      this.equipment = equipmentData;
+    });
   }
 }

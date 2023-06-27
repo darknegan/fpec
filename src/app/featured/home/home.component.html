@@ -1,6 +1,6 @@
 <!-- Slideshow -->
 <p-carousel
-  [value]="slides$ | async"
+  [value]="slides"
   [numVisible]="1"
   [numScroll]="1"
   [circular]="true"
@@ -33,7 +33,7 @@
 </p-carousel>
 
 <!-- Food Processing Equipment -->
-  <p-dataView class="equipment-container" [value]="equipment$ | async" layout="grid">
+  <p-dataView class="equipment-container" [value]="equipment" layout="grid">
     <p-header class="equipment-header">Food Processing Equipment </p-header>
     <ng-template let-equipment pTemplate="gridItem">
       <div class="equipment-grid">
