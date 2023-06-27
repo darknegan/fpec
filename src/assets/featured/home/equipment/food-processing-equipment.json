@@ -1,48 +1,46 @@
-{
-  "data": [
-    {
-      "name": "TUMBLERS",
-      "image": "tumbler-arctic-blast.png"
-    },
-    {
-      "name": "MIXING & GRINDING",
-      "image": "mixer-vacuum-co2-front-view.png"
-    },
-    {
-      "name": "PRODUCT AND MATERIAL HANDLING (SCREW & BELT CONVEYORS)",
-      "image": "screw-conveyor-metering-screw.png"
-    },
-    {
-      "name": "PRODUCT TRANSFER & PUMPING",
-      "image": "pump-system-twin-screw.png"
-    },
-    {
-      "name": "DUMPERS & LIFTS",
-      "image": "dumper-pivot.png"
-    },
-    {
-      "name": "VACUUM FEED HOPPERS & MISC",
-      "image": "vacuum-feed-hopper.png"
-    },
-    {
-      "name": "BRINE SYSTEMS",
-      "image": "brine-system-dual-jacketed-tanks.png"
-    },
-    {
-      "name": "GRINDING & SEPARATION",
-      "image": "grinder-self-feeding.png"
-    },
-    {
-      "name": "MEAT PRESS",
-      "image": "space-saver-meat-press.png"
-    },
-    {
-      "name": "COOKING",
-      "image": "cooker-single-shaft.png"
-    },
-    {
-      "name": "In Stock Equipment",
-      "image": "dumper-chain-lift.png"
-    }
-  ]
-}
+[
+  {
+    "name": "TUMBLERS",
+    "image": "tumbler-arctic-blast.png"
+  },
+  {
+    "name": "MIXING & GRINDING",
+    "image": "mixer-vacuum-co2-front-view.png"
+  },
+  {
+    "name": "PRODUCT AND MATERIAL HANDLING (SCREW & BELT CONVEYORS)",
+    "image": "screw-conveyor-metering-screw.png"
+  },
+  {
+    "name": "PRODUCT TRANSFER & PUMPING",
+    "image": "pump-system-twin-screw.png"
+  },
+  {
+    "name": "DUMPERS & LIFTS",
+    "image": "dumper-pivot.png"
+  },
+  {
+    "name": "VACUUM FEED HOPPERS & MISC",
+    "image": "vacuum-feed-hopper.png"
+  },
+  {
+    "name": "BRINE SYSTEMS",
+    "image": "brine-system-dual-jacketed-tanks.png"
+  },
+  {
+    "name": "GRINDING & SEPARATION",
+    "image": "grinder-self-feeding.png"
+  },
+  {
+    "name": "MEAT PRESS",
+    "image": "space-saver-meat-press.png"
+  },
+  {
+    "name": "COOKING",
+    "image": "cooker-single-shaft.png"
+  },
+  {
+    "name": "In Stock Equipment",
+    "image": "dumper-chain-lift.png"
+  }
+]

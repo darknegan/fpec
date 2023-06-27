@@ -19,14 +19,14 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.slides$ = this.homeService.getSlideShow().pipe(
-      map((res) => {
-        return res.data;
+      map((res: Slide[]) => {
+        return res;
       })
     );
 
     this.equipment$ = this.homeService.getEquipment().pipe(
-      map((res) => {
-        return res.data;
+      map((res: Equipment[]) => {
+        return res;
       })
     );
   }
