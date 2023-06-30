@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { of } from 'rxjs';
 
 import { HomeComponent } from './home.component';
-import { Equipment, Slide } from './model/home-interface';
+import { Equipment, Slide } from './model/home.interface';
 import { HomeService } from './services/home.service';
 
 describe('HomeComponent', () => {

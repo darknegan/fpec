@@ -50,51 +50,51 @@ const routes: Routes = [
     component: ContactComponent,
   },
   {
-    path: 'tumblers',
+    path: 'products/tumblers',
     component: TumblersComponent,
   },
   {
-    path: 'mixing-grinding',
+    path: 'products/mixing-grinding',
     component: MixingGrindingComponent,
   },
   {
-    path: 'p-m-handling',
+    path: 'products/p-m-handling',
     component: PMHandlingComponent,
   },
   {
-    path: 'transfer-pumping',
+    path: 'products/transfer-pumping',
     component: TransferPumpingComponent,
   },
   {
-    path: 'cooking',
+    path: 'products/cooking',
     component: CookingComponent,
   },
   {
-    path: 'dumpers-lifts',
+    path: 'products/dumpers-lifts',
     component: DumpersLiftsComponent,
   },
   {
-    path: 'grinding-separation',
+    path: 'products/grinding-separation',
     component: GrindingSeparationComponent,
   },
   {
-    path: 'vacuum-feed-hoppers',
+    path: 'products/vacuum-feed-hoppers',
     component: VacuumFeedHoppersComponent,
   },
   {
-    path: 'brine-systems',
+    path: 'products/brine-systems',
     component: BrineSystemsComponent,
   },
   {
-    path: 'meat-press',
+    path: 'products/meat-press',
     component: MeatPressComponent,
   },
   {
-    path: 'in-stock',
+    path: 'products/in-stock',
     component: InStockComponent,
   },
   {
-    path: 'sales-support',
+    path: 'products/sales-support',
     component: SalesSupportComponent,
   },
   {

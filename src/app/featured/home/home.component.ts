@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 import { HomeService } from './services/home.service';
-import { Slide } from './model/home-interface';
-import { Equipment } from './model/home-interface';
+import { Slide } from './model/home.interface';
+import { Equipment } from './model/home.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',

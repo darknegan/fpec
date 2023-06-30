@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Equipment, Slide } from '../model/home-interface';
+import { Equipment, Slide } from '../model/home.interface';
 
 @Injectable()
 export class HomeService {
@@ -15,6 +15,6 @@ export class HomeService {
 
   getEquipment(): Observable<Equipment[]> {
     return this.http
-      .get<any>('assets/featured/home/equipmentGrid/food-processing-equipment.json');
+      .get<any>('assets/featured/home/equipment/food-processing-equipment.json');
   }
 }

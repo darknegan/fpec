@@ -8,4 +8,5 @@ export interface Slide {
 export interface Equipment {
   name: string;
   image: string;
+  route: string;
 }

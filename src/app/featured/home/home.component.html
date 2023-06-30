@@ -19,6 +19,7 @@
             class="slide-button"
             type="button"
             label="Learn More"
+            (onClick)="productRouter()"
             class="p-button-raised p-button-rounded"
           ></p-button>
         </p-panel>
@@ -37,7 +38,7 @@
     <p-header class="equipment-header">Food Processing Equipment </p-header>
     <ng-template let-equipment pTemplate="gridItem">
       <div class="equipment-grid">
-        <div class="equipment-item card">
+        <div class="equipment-item card" [routerLink]="['/products', equipment.route]">
           <div class="equipment-item-content"></div>
           <img
             src="assets/featured/home/equipment/{{ equipment.image }}"
