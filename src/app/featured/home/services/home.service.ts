@@ -15,6 +15,6 @@ export class HomeService {
 
   getEquipment(): Observable<Equipment[]> {
     return this.http
-      .get<any>('assets/featured/home/equipment-grid/food-processing-equipment.json');
+      .get<any>('assets/featured/home/equipmentGrid/food-processing-equipment.json');
   }
 }
