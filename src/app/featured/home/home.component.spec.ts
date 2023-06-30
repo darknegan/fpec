@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { of } from 'rxjs';
 
 import { HomeComponent } from './home.component';
-import { Slide } from './model/home-interface';
+import { Equipment, Slide } from './model/home-interface';
 import { HomeService } from './services/home.service';
 
 describe('HomeComponent', () => {
@@ -40,5 +40,18 @@ describe('HomeComponent', () => {
     component.ngOnInit();
 
     expect(component.slides[0]).toEqual(testSlide);
+  })
+
+  it('should create equipment grid', (done) => {
+    const testEquipment: Equipment = {
+      "name": "TUMBLERS",
+      "image": "tumbler-arctic-blast.png"
+    };
+
+    homeService.getEquipment.and.returnValue(of([testEquipment]))
+
+    component.ngOnInit();
+
+    expect(component.equipment[0]).toEqual(testEquipment);
   })
 });
