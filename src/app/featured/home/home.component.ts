@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { map } from 'rxjs/operators';
-import { Observable } from 'rxjs';
 
 import { HomeService } from './services/home.service';
-import { Slide } from './model/home-interface';
-import { Equipment } from './model/home-interface';
+import { Slide } from './model/home.interface';
+import { Equipment } from './model/home.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,22 +11,18 @@ import { Equipment } from './model/home-interface';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  slides$: Observable<Slide[]>;
-  equipment$: Observable<Equipment[]>;
+  slides: Slide[];
+  equipment: Equipment[];
 
   constructor(private homeService: HomeService) {}
 
   ngOnInit(): void {
-    this.slides$ = this.homeService.getSlideShow().pipe(
-      map((res) => {
-        return res.data;
-      })
-    );
+    this.homeService.getSlideShow().subscribe((slideData: Slide[]) => {
+      this.slides = slideData;
+    });
 
-    this.equipment$ = this.homeService.getEquipment().pipe(
-      map((res) => {
-        return res.data;
-      })
-    );
+    this.homeService.getEquipment().subscribe((equipmentData: Equipment[]) => {
+      this.equipment = equipmentData;
+    });
   }
 }

@@ -12,9 +12,11 @@ import { ButtonModule } from 'primeng/button';
 import { ToastModule } from 'primeng/toast';
 import { PanelModule } from 'primeng/panel';
 import { DataViewModule } from 'primeng/dataview';
+import { AppRoutingModule } from '../../app-routing.module';
 
 @NgModule({
   imports: [
+    AppRoutingModule,
     CommonModule,
     CarouselModule,
     ButtonModule,

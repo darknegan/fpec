@@ -1,22 +1,20 @@
-{
-  "data": [
-    {
-      "name": "Tumbler",
-      "header": "OUR SANITARY OPEN CHANNEL DESIGN JUST MADE YOUR LIFE EASIER.",
-      "description": "Every piece of FPEC equipment is manufactured in the U.S. and engineered to perform for the long haul.",
-      "image": "tumbler.png"
-    },
-    {
-      "name": "Pump System",
-      "header": "HAVING TROUBLE KEEPING MACHINES FILLED WITH PRODUCT USING KITCHEN CARTS?",
-      "description": "FPEC's pump system efficently and automatically moves ground product from one part of your process to another, eliminating the need for human power.",
-      "image": "pump-system-twin-screw.png"
-    },
-    {
-      "name": "Material Handling",
-      "header": "WE DON'T JUST PUSH BOUNDARIES. WE ELIMINATE THEM.",
-      "description": "Our Load N Go Product Transfer System stops food contamination in its tracks. Just another way we're making food processing easier and safer for customers.",
-      "image": "material-handling.png"
-    }
-  ]
-}
+[
+  {
+    "name": "Tumbler",
+    "header": "OUR SANITARY OPEN CHANNEL DESIGN JUST MADE YOUR LIFE EASIER.",
+    "description": "Every piece of FPEC equipment is manufactured in the U.S. and engineered to perform for the long haul.",
+    "image": "tumbler.png"
+  },
+  {
+    "name": "Pump System",
+    "header": "HAVING TROUBLE KEEPING MACHINES FILLED WITH PRODUCT USING KITCHEN CARTS?",
+    "description": "FPEC's pump system efficently and automatically moves ground product from one part of your process to another, eliminating the need for human power.",
+    "image": "pump-system-twin-screw.png"
+  },
+  {
+    "name": "Material Handling",
+    "header": "WE DON'T JUST PUSH BOUNDARIES. WE ELIMINATE THEM.",
+    "description": "Our Load N Go Product Transfer System stops food contamination in its tracks. Just another way we're making food processing easier and safer for customers.",
+    "image": "material-handling.png"
+  }
+]
