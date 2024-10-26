@@ -1,22 +1,23 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { AboutComponent } from './about.component';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 export * from './about.component';
+import { AboutComponent } from './about.component';
+
+import { PanelModule } from 'primeng/panel';
 
 @NgModule({
-    imports: [
-        CommonModule
-    ],
+  imports: [
+    CommonModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    PanelModule,
+  ],
 
-    exports: [
-        AboutComponent
-    ],
+  exports: [AboutComponent],
 
-    declarations: [
-        AboutComponent
-    ]
+  declarations: [AboutComponent],
 })
-
-export class AboutModule {
-
-}
+export class AboutModule {}

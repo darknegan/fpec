@@ -1,6 +1,8 @@
 <p-menubar class="nav-menu" [model]="navbar">
   <ng-template pTemplate="start">
-    <img src="assets/featured/home/fpec_logo.png" class="logo" />
+    <a [routerLink]="['/home']">
+      <img src="assets/featured/home/fpec_logo.png" class="logo" />
+    </a>
   </ng-template>
   <ng-template pTemplate="end">
     <p-autoComplete

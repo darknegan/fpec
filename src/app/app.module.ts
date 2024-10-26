@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderModule } from './shared/header/header.module';
 import { HomeModule } from './featured/home/home.module';
+import { AboutModule } from './featured/about/about.module';
 import { ProductsModule } from './featured/products/products.module';
 import { ReplacementPartsModule } from './featured/replacement-parts/replacement-parts.module';
 import { VideoGalleryModule } from './featured/video-gallery/video-gallery.module';
@@ -24,6 +25,7 @@ import { FooterModule } from './shared/footer/footer.module';
     HeaderModule,
     FooterModule,
     HomeModule,
+    AboutModule,
     ProductsModule,
     ReplacementPartsModule,
     VideoGalleryModule,

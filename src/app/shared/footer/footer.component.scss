@@ -9,20 +9,56 @@
   }
 
   ::ng-deep .p-panel-content {
-    width: 100% !important;
+    background-color: #343434;
   }
 
 }
 
+h2 {
+  margin: 16px 0 !important;
+}
+
+h4 {
+  margin: 6px 0;
+}
+
 .footer-content {
-  width: 100%;
+  width: 100% !important;
   display: flex;
   flex-direction: row;
+  background-color: #343434;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-left {
+  display: flex;
+  width: 100%;
+}
+
+.footer-right {
+  display: flex;
+  justify-content:flex-end;
+  width: 1000%;
 }
 
 .footer-header {
   font-size: 28px;
+  color: white
 }
-.footer-item{
-  font-size: 12px;
+
+.footer-item { 
+  color: grey;
+}
+
+.footer-item:hover{ 
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: column;
 }
